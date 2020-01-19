@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: color 2s;
+}
+a:hover{
+    color: rgb(139, 255, 116);
+} /*Algo acontece quando passa o cursor em cima dos links*/
+
+a.sieel{
+    color: white;
+    text-decoration: none;
+    transition: color 2s;
+
+    animation-name:aparecer;
+    animation-duration: 5s;
+}
+a.sieel:hover{
+    color: rgb(139, 255, 116);
+} /*Algo acontece quando passa o cursor em cima dos links*/
+
+a.sasel{
+    color: white;
+    text-decoration: none;
+    transition: color 2s;
+
+    animation-name:aparecer;
+    animation-duration: 5s;
+}
+a.sasel:hover{
+    color:skyblue;
+} /*Algo acontece quando passa o cursor em cima dos links*/
+
+
+h3{
+    margin-top: 5%;
+
+    animation-name:aparecer;
+    animation-duration: 5s;
+}
+
+.membros{
+    list-style-type:none;
+
+    animation-name:aparecer;
+    animation-duration: 5s;
+
+}
+
+/*------------Animação------------*/
+
+@keyframes aparecer{
+    from {color: #000000;}
+    to{color: #fff;}
+}
